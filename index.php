@@ -175,7 +175,7 @@
               </div>
           <div class="form-inner">
           <?php $message="";?>
-            <form action="../Project/nav.php" method="POST" class="login" >   <!--Action to thane same page since validations.php is included-->
+            <form action="../Project/index.php" method="POST" class="login" >   <!--Action to thane same page since validations.php is included-->
             <?php echo display_error(); ?>
               <div class="field">
                 <input type="text" placeholder="Email Address"required name="username"></div>
