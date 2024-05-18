@@ -3,5 +3,5 @@
 session_start();
 session_destroy();
 
-header('location:nav.php');
+header('location:index.php');
 ?>

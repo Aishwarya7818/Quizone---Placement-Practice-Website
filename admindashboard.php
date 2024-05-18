@@ -4,7 +4,7 @@
 include('../Project/validations.php');
 if (!isAdmin()) {                                 //function to check if the user is admin or not
 	$_SESSION['msg'] = "You must log in first";
-	header('location: ../Project/nav.php');
+	header('location: ../Project/index.php');
 }
 
 ?>

@@ -153,7 +153,7 @@ if(isset($_POST['check-email'])){
                     $info = "We've sent a passwrod to your email - $email";
                     $_SESSION['info'] = $info;
                     $_SESSION['email'] = $email;
-                    header('location: ../Project/nav.php');
+                    header('location: ../Project/index.php');
                     exit();
                 }else{
                     $errors['otp-error'] = "Failed while sending code!";

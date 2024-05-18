@@ -1,6 +1,6 @@
 <?php
 session_start();                             //start session
-//header('location:nav.php');                    //If data is inserted successfully u will be navigated to nav.php
+//header('location:index.php');                    //If data is inserted successfully u will be navigated to nav.php
 $conn = mysqli_connect('localhost','root',''); //make connection
 mysqli_select_db($conn,'wdl');                 // select database
 
@@ -32,7 +32,7 @@ if($num==1){
 }
 if($pass!=$cpass){
 	echo '<script>alert("Passwords does not match!!!")</script>';
-	//header('location:../Project/nav.php');
+	//header('location:../Project/index.php');
 	//array_push($errors, "Password and Confirm Password don't match!!!");
 }
 else{
